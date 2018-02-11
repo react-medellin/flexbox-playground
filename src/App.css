@@ -3,7 +3,3 @@
   width: 100%;
   display: flex;
 }
-
-.flex-boxes {
-  width: calc(100% - 300px);
-}

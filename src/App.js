@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FlexBox } from './FlexBox';
 import { FlexOptions } from './FlexOptions';
 import { Box } from './Box';
 import { Title } from './Title';
@@ -28,38 +29,10 @@ class App extends Component {
   }
 
   render() {
-    const { flexDirection, justifyContent, alignItems, alignContent, flexWrap } = this.state;
-
-    const styles = {
-      flexBox: {
-        width: '100%',
-        height: '100vh',
-        display: 'flex',
-        flexDirection,
-        justifyContent,
-        alignItems,
-        alignContent,
-        flexWrap,
-      }
-    }
-
     return (
       <div className="App">
         <FlexOptions onChange={this.onChange} />
-        <div className="flex-boxes" style={styles.flexBox}>
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-        </div>
+        <FlexBox {...this.state} />
       </div>
     );
   }
