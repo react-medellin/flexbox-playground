@@ -2,46 +2,8 @@ import React, { Component } from 'react';
 import { Box } from './Box';
 import { Select } from './Select';
 import { Title } from './Title';
+import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
 import './App.css';
-
-const flexDirectionOptions = [
-  'row',
-  'row-reverse',
-  'column',
-  'column-reverse'
-];
-
-const justifyContentOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
-  'left',
-  'right',
-  'space-between',
-  'space-around',
-  'space-evenly'
-];
-
-const alignItemsOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
-];
-
-const alignContentOptions = [
-  'center',
-  'flex-end',
-  'flex-start',
-  'space-between',
-  'space-around',
-  'space-evenly'
-]
-
-const flexWrapOptions = [
-  'wrap',
-  'nowrap',
-  'wrap-reverse'
-]
 
 class App extends Component {
   constructor(props) {
