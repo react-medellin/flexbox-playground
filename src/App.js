@@ -1,45 +1,9 @@
 import React, { Component } from 'react';
 import { Box } from './Box';
+import { Select } from './Select';
+import { Title } from './Title';
+import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
 import './App.css';
-
-const flexDirectionOptions = [
-  'row',
-  'row-reverse',
-  'column',
-  'column-reverse'
-];
-
-const justifyContentOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
-  'left',
-  'right',
-  'space-between',
-  'space-around',
-  'space-evenly'
-];
-
-const alignItemsOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
-];
-
-const alignContentOptions = [
-  'center',
-  'flex-end',
-  'flex-start',
-  'space-between',
-  'space-around',
-  'space-evenly'
-]
-
-const flexWrapOptions = [
-  'wrap',
-  'nowrap',
-  'wrap-reverse'
-]
 
 class App extends Component {
   constructor(props) {
@@ -83,47 +47,32 @@ class App extends Component {
     return (
       <div className="App">
         <div className="flex-options">
-          display: flex
-          flex-direction:
-          <select name="flexDirection" onChange={this.onChange}>
-            {flexDirectionOptions.map(option => {
-              return (
-                <option value={option} key={option}>{option}</option>
-              );
-            })}
-          </select>
-          justify-content
-          <select name="justifyContent" onChange={this.onChange}>
-            {justifyContentOptions.map(option => {
-              return (
-                <option value={option} key={option}>{option}</option>
-              );
-            })}
-          </select>
-          align-items
-          <select name="align-items" onChange={this.onChange}>
-            {alignItemsOptions.map(option => {
-              return (
-                <option value={option} key={option}>{option}</option>
-              );
-            })}
-          </select>
-          align-content
-          <select name="alignContent" onChange={this.onChange}>
-            {alignContentOptions.map(option => {
-              return (
-                <option value={option} key={option}>{option}</option>
-              );
-            })}
-          </select>
-          flex-wrap
-          <select name="flexWrap" onChange={this.onChange}>
-            {flexWrapOptions.map(option => {
-              return (
-                <option value={option} key={option}>{option}</option>
-              );
-            })}
-          </select>
+          <Title>display: flex</Title>
+          <Select
+            name="flexDirection"
+            onChange={this.onChange}
+            dataSource={flexDirectionOptions}
+          />
+          <Select
+            name="justifyContent"
+            onChange={this.onChange}
+            dataSource={justifyContentOptions}
+          />
+          <Select
+            name="alignItems"
+            onChange={this.onChange}
+            dataSource={alignItemsOptions}
+          />
+          <Select
+            name="alignContent"
+            onChange={this.onChange}
+            dataSource={alignContentOptions}
+          />
+          <Select
+            name="flexWrap"
+            onChange={this.onChange}
+            dataSource={flexWrapOptions}
+          />
         </div>
         <div className="flex-boxes" style={styles.flexBox}>
           <Box primary />
