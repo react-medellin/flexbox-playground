@@ -1,21 +1,37 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Title } from './Title';
 
-const selectStyles = {
-  border: '2px solid #333',
-  width: '100%',
-  borderRadius: 0
-};
+const StyledSelect = styled.select`
+  border: 2px solid #333;
+  width: 100%;
+  border-radius: 0;
+
+  &:focus {
+    border-radius: 0;
+    outline-color: #5c3799;
+  }
+`;
 
 export const Select = ({ name, dataSource, onChange }) => (
   <div>
-    <Title>{name}</Title>
-    <select name={name} onChange={onChange} style={selectStyles}>
+    <Title>
+      {name}
+    </Title>
+    <StyledSelect
+      name={name}
+      onChange={onChange}
+    >
       {dataSource.map(option => {
         return (
-          <option value={option} key={option}>{option}</option>
+          <option
+            value={option}
+            key={option}
+          >
+            {option}
+          </option>
         );
       })}
-    </select>
+    </StyledSelect>
   </div>
 );
