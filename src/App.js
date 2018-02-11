@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { FlexBox } from './FlexBox';
 import { FlexOptions } from './FlexOptions';
-import { Box } from './Box';
-import { Title } from './Title';
-import './App.css';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+`;
 
 class App extends Component {
   constructor(props) {
@@ -30,10 +34,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <Container>
         <FlexOptions onChange={this.onChange} />
         <FlexBox {...this.state} />
-      </div>
+      </Container>
     );
   }
 }
