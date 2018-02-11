@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import { FlexOptions } from './FlexOptions';
 import { Box } from './Box';
-import { Select } from './Select';
 import { Title } from './Title';
-import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
 import './App.css';
 
 class App extends Component {
@@ -46,34 +45,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="flex-options">
-          <Title>display: flex</Title>
-          <Select
-            name="flexDirection"
-            onChange={this.onChange}
-            dataSource={flexDirectionOptions}
-          />
-          <Select
-            name="justifyContent"
-            onChange={this.onChange}
-            dataSource={justifyContentOptions}
-          />
-          <Select
-            name="alignItems"
-            onChange={this.onChange}
-            dataSource={alignItemsOptions}
-          />
-          <Select
-            name="alignContent"
-            onChange={this.onChange}
-            dataSource={alignContentOptions}
-          />
-          <Select
-            name="flexWrap"
-            onChange={this.onChange}
-            dataSource={flexWrapOptions}
-          />
-        </div>
+        <FlexOptions onChange={this.onChange} />
         <div className="flex-boxes" style={styles.flexBox}>
           <Box primary />
           <Box />

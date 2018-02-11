@@ -4,14 +4,6 @@
   display: flex;
 }
 
-.flex-options {
-  width: 300px;
-  height: 100vh;
-  padding: 10px;
-  border: 2px solid #333;
-  box-sizing: border-box;
-}
-
 .flex-boxes {
   width: calc(100% - 300px);
 }
