@@ -1,13 +1,7 @@
-import React from 'react';
+import styled from 'styled-components';
 
-export const Box = ({ primary }) => {
-  const boxStyles = {
-    backgroundColor: primary ? 'blue' : 'green',
-    height: 120,
-    width: 120,
-  }
-
-  return (
-    <div style={boxStyles}></div>
-  );
-};
+export const Box = styled.div`
+  background-color: ${props => props.primary ? '#5c3799' : '#a67d4c'};
+  height: 120px;
+  width: 120px;
+`;
