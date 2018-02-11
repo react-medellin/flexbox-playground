@@ -1,11 +1,7 @@
-import React from 'react';
+import styled from 'styled-components';
 
-const titleStyle = {
-  color: '#333',
-  fontWeight: 600,
-  marginBottom: 10,
-}
-
-export const Title = ({ children }) => (
-  <p style={titleStyle}>{children}</p>
-);
+export const Title = styled.p`
+  color: '#333';
+  font-weight: 600;
+  margin-bottom: 10;
+`;

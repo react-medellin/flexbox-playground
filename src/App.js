@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import { Box } from './Box';
-import { Select } from './Select';
-import { Title } from './Title';
-import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
-import './App.css';
+import { FlexBox } from './FlexBox';
+import { FlexOptions } from './FlexOptions';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100%;
+  display: flex;
+`;
 
 class App extends Component {
   constructor(props) {
@@ -29,66 +33,11 @@ class App extends Component {
   }
 
   render() {
-    const { flexDirection, justifyContent, alignItems, alignContent, flexWrap } = this.state;
-
-    const styles = {
-      flexBox: {
-        width: '100%',
-        height: '100vh',
-        display: 'flex',
-        flexDirection,
-        justifyContent,
-        alignItems,
-        alignContent,
-        flexWrap,
-      }
-    }
-
     return (
-      <div className="App">
-        <div className="flex-options">
-          <Title>display: flex</Title>
-          <Select
-            name="flexDirection"
-            onChange={this.onChange}
-            dataSource={flexDirectionOptions}
-          />
-          <Select
-            name="justifyContent"
-            onChange={this.onChange}
-            dataSource={justifyContentOptions}
-          />
-          <Select
-            name="alignItems"
-            onChange={this.onChange}
-            dataSource={alignItemsOptions}
-          />
-          <Select
-            name="alignContent"
-            onChange={this.onChange}
-            dataSource={alignContentOptions}
-          />
-          <Select
-            name="flexWrap"
-            onChange={this.onChange}
-            dataSource={flexWrapOptions}
-          />
-        </div>
-        <div className="flex-boxes" style={styles.flexBox}>
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-          <Box primary />
-          <Box />
-        </div>
-      </div>
+      <Container>
+        <FlexOptions onChange={this.onChange} />
+        <FlexBox {...this.state} />
+      </Container>
     );
   }
 }
