@@ -8,5 +8,16 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "angelitaooo",
+      "name": "Angela Ordoñez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18565471?v=4",
+      "profile": "http://angelitaooo.github.io",
+      "contributions": [
+        "doc",
+        "tool"
+      ]
+    }
+  ]
 }
