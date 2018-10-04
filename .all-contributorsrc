@@ -1,0 +1,23 @@
+{
+  "projectName": "flexbox-playground",
+  "projectOwner": "react-medellin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "angelitaooo",
+      "name": "Angela Ordoñez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18565471?v=4",
+      "profile": "http://angelitaooo.github.io",
+      "contributions": [
+        "doc",
+        "tool"
+      ]
+    }
+  ]
+}
