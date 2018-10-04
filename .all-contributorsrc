@@ -18,6 +18,28 @@
         "doc",
         "tool"
       ]
+    },
+    {
+      "login": "danielcb29",
+      "name": "Daniel Correa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8260962?v=4",
+      "profile": "https://danielcb29.github.io/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shmesa22",
+      "name": "Simon Hoyos",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23706543?v=4",
+      "profile": "https://www.linkedin.com/in/simonhoyos/",
+      "contributions": [
+        "question",
+        "code",
+        "eventOrganizing",
+        "review",
+        "tutorial"
+      ]
     }
   ]
 }
