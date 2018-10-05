@@ -49,6 +49,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "williamegomez",
+      "name": "William Gómez Ortega",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33497419?v=4",
+      "profile": "http://www.williamgomez.me",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
     }
   ]
 }
