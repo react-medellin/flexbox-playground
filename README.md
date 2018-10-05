@@ -34,6 +34,53 @@ yarn eject
 Note: this is a one-way operation. Once you eject, you can’t go back!
 If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
+## How to contribute?
+___
+
+1.	Hacemos Fork del proyecto, esto permite copiarlo, pero en tu repositorio 
+    <center><img src="https://i.postimg.cc/1tjmDCgk/Screenshot_3.png"/></center>
+
+2.	Ahora hacemos un clone, esto es para copiarlo en tu PC
+    <center><img src="https://i.postimg.cc/FKhHvJ5B/image.png"/></center>
+    2.1.	Ejecutas el siguiente comando: 
+     `git clone https://github.com/jsnavarroc/flexbox-playground.git`
+
+3.	Ahora entramos al proyecto por la terminal o cmd al proyecto que copiamos. 
+    `Ej: D:\openSource\flexbox-playground>`
+
+4.	Si ejecutamos git remote -v nos mostrará que solo contamos con el remote de nuestro repositorio: 
+    git remote -v
+    <center><img src="https://i.postimg.cc/Tww2LMPj/image.png"/></center>
+
+5.	Creamos entonces la remote que nos permitirá subir el proyecto al repositorio original 
+
+    <center><img src="https://i.postimg.cc/SKVNxNmN/image.png"/></center>
+    <center><img src="https://i.postimg.cc/1XV9BGwf/image.png"/></center>
+    
+`git remote add upstream https://github.com/react-medellin/flexbox-playground.git`
+
+
+6. Hacemos una rama en la que vamos a guardar todos los cambios 
+    `git checkout -b add-readme`
+7.	Abrimos el archivo y comenzamos a modificarlo en el id desarrollo que utilices 
+
+
+8. Hacemos un commit de lo que hiciste 
+    `git add .` 
+
+    `git commit -m "to update Readme`
+
+9. Ahora subimos a nuestro repositorio que esta conectado al repositorio original
+
+    `git push origin add-readme` 
+
+10. Establecemos nuestras credenciales como contribuidores
+    
+    `yarn install`
+
+    `yarn contributors:add`
+___
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
