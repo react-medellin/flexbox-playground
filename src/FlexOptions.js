@@ -46,7 +46,7 @@ export const FlexOptions = ({
       dataSource={flexWrapOptions}
     />
     <BoxInputs
-      name="Boxes' Height and Width"
+      name="Boxes' Width and Height"
       onChange={onChange}
       width={width}
       height={height}
