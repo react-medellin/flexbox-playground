@@ -3,7 +3,7 @@ import { Box } from './Box';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  width: calc(100%-300px);
+  width: calc(100% - 300px);
   height: 100vh;
   display: flex;
   flex-direction: ${({flexDirection}) => flexDirection};
