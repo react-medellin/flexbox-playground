@@ -37,7 +37,11 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <FlexOptions onChange={this.onChange} width={this.state.width} height={this.state.height} />
+        <FlexOptions
+          onChange={this.onChange}
+          width={this.state.width}
+          height={this.state.height}
+        />
         <FlexBox {...this.state} />
       </Container>
     );
