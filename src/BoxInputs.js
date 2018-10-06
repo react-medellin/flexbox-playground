@@ -1,4 +1,4 @@
-import React, { Fragment, PureComponent } from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import { Title } from './Title';
 
