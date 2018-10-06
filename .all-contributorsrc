@@ -60,6 +60,25 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "kritokrator",
+      "name": "kritokrator",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3844042?v=4",
+      "profile": "https://github.com/kritokrator",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "josemariogutierrez",
+      "name": "Jose Mario Gutierrez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27037672?v=4",
+      "profile": "https://github.com/josemariogutierrez",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ]
 }
