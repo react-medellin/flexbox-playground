@@ -15,17 +15,17 @@ const Container = styled.div`
 
 export const FlexBox = (props) => (
   <Container {...props}>
-    <Box primary />
-    <Box />
-    <Box primary />
-    <Box />
-    <Box primary />
-    <Box />
-    <Box primary />
-    <Box />
-    <Box primary />
-    <Box />
-    <Box primary />
-    <Box />
+    <Box {...props} primary />
+    <Box {...props} />
+    <Box {...props} primary />
+    <Box {...props} />
+    <Box {...props} primary />
+    <Box {...props} />
+    <Box {...props} primary />
+    <Box {...props} />
+    <Box {...props} primary />
+    <Box {...props} />
+    <Box {...props} primary />
+    <Box {...props} />
   </Container>
 );
