@@ -20,7 +20,7 @@ class App extends Component {
       alignContent: 'flex-start',
       flexWrap: 'wrap'
     }
-  };
+  }
 
   onChange = (e) => {
     const target = e.target;
