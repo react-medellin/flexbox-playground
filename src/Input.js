@@ -6,6 +6,7 @@ const StyledInput = styled.input`
   border: 2px solid #333;
   width: 100%;
   border-radius: 0;
+  box-sizing: border-box;
 
   &:focus {
     border-radius: 0;
