@@ -3,24 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 
 
-# How to install dependecie with npm
-
-In the project directory, you can run
-
-```
-npm install
-```
-
-
-# How to run the app with npm
-
-In the project directory, you can run 
-
-```
-npm start
-```
-
-
 # How to run the app - Available Scripts
 In the project directory, you can run:
 
