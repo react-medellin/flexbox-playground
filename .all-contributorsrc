@@ -88,6 +88,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "gajamo",
+      "name": "gajamo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3331072?v=4",
+      "profile": "https://github.com/gajamo",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }
