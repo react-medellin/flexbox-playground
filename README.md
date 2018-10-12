@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 
 
-# How install dependecie with
+# How to install dependecie with npm
 
 In the project directory, you can run
 
