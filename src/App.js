@@ -18,7 +18,8 @@ class App extends Component {
       justifyContent: 'flex-start',
       alignItems: 'center',
       alignContent: 'flex-start',
-      flexWrap: 'wrap'
+      flexWrap: 'wrap',
+      numberBoxes: 10
     }
   };
 
