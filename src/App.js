@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { FlexBox } from './FlexBox';
+import { FlexBoxWrapper } from './FlexBox';
 import { FlexOptions } from './FlexOptions';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
+  padding: 20px;
 `;
 
 class App extends Component {
@@ -36,7 +37,7 @@ class App extends Component {
     return (
       <Container>
         <FlexOptions onChange={this.onChange} />
-        <FlexBox {...this.state} />
+        <FlexBoxWrapper {...this.state} />
       </Container>
     );
   }
