@@ -51,6 +51,15 @@
       ]
     },
     {
+      "login": "camigomez35",
+      "name": "Maria Camila Gomez Restrepo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16061815?v=4",
+      "profile": "http://www.camigomez.me/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
       "login": "williamegomez",
       "name": "William Gómez Ortega",
       "avatar_url": "https://avatars2.githubusercontent.com/u/33497419?v=4",
@@ -78,6 +87,15 @@
       "contributions": [
         "code",
         "design"
+      ]
+    },
+    {
+      "login": "jsnavarroc",
+      "name": "jsnavarroc",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28201235?v=4",
+      "profile": "https://github.com/jsnavarroc",
+      "contributions": [
+        "doc"
       ]
     }
   ]

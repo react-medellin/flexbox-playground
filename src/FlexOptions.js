@@ -8,6 +8,7 @@ import {
   flexWrapOptions
 } from './options';
 import { Select } from './Select';
+import { Input } from './Input';
 import { Title } from './Title';
 
 const Container = styled.div`
@@ -45,6 +46,10 @@ export const FlexOptions = ({ onChange }) => (
       name="flexWrap"
       onChange={onChange}
       dataSource={flexWrapOptions}
+    />
+    <Input
+      name="numberBoxes"
+      onChange={onChange}
     />
   </Container>
 );
