@@ -4,6 +4,7 @@ import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignCo
 import { Select } from './Select';
 import { Input } from './Input';
 import { Title } from './Title';
+import { BoxInputs } from './BoxInputs';
 
 const Container = styled.div`
   width: 300px;
@@ -13,7 +14,11 @@ const Container = styled.div`
   box-sizing: border-box;
 `;
 
-export const FlexOptions = ({ onChange }) => (
+export const FlexOptions = ({
+  onChange,
+  width,
+  height
+}) => (
   <Container>
     <Title>display: flex</Title>
     <Select
@@ -40,6 +45,12 @@ export const FlexOptions = ({ onChange }) => (
       name="flexWrap"
       onChange={onChange}
       dataSource={flexWrapOptions}
+    />
+    <BoxInputs
+      name="Boxes' Width and Height"
+      onChange={onChange}
+      width={width}
+      height={height}
     />
     <Input
       name="numberBoxes"

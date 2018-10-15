@@ -13,11 +13,12 @@ const Container = styled.div`
   flex-wrap: ${({flexWrap}) => flexWrap};
 `;
 
-const displayBoxes = (numBoxes) =>
-    Array.from({ length: numBoxes }, (_, i) => <Box primary={i % 2 === 0} key={i}/>);
+const displayBoxes = ({ numberBoxes, width, height }) =>
+    Array.from({ length: numberBoxes }, (_, i) =>
+               <Box primary={i % 2 === 0} width={width} height={height} key={i}/>);
 
 export const FlexBox = (props) => (
   <Container {...props}>
-    {displayBoxes(props.numberBoxes)}
+    {displayBoxes(props)}
   </Container>
 );
