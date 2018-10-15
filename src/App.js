@@ -20,7 +20,8 @@ class App extends Component {
       alignContent: 'flex-start',
       flexWrap: 'wrap',
       width: 120,
-      height: 120
+      height: 120,
+      numberBoxes: 10
     }
   };
 

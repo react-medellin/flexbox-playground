@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
 import { Select } from './Select';
+import { Input } from './Input';
 import { Title } from './Title';
 import { BoxInputs } from './BoxInputs';
 
@@ -50,6 +51,10 @@ export const FlexOptions = ({
       onChange={onChange}
       width={width}
       height={height}
+    />
+    <Input
+      name="numberBoxes"
+      onChange={onChange}
     />
   </Container>
 );
