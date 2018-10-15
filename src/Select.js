@@ -2,19 +2,34 @@ import React from 'react';
 import styled from 'styled-components';
 import { Title } from './Title';
 
-const StyledSelect = styled.select`
-  border: 2px solid #333;
-  width: 100%;
-  border-radius: 0;
+const SelectItemContainer = styled.div`
+  margin-bottom: 15px;
+`
 
-  &:focus {
-    border-radius: 0;
-    outline-color: #5c3799;
-  }
+const StyledSelect = styled.select`
+  width: 100%;
+  height: 29px;
+  padding: 0 12px;
+  margin-bottom: 0;
+  background: #ebebeb url("./icons/arrow-down.svg") no-repeat;
+  background-position: calc(100% - 6px) 4px;
+  background-size: 22px;
+  -webkit-appearance: none!important;
+  -moz-appearance: none!important;
+  appearance: none!important;
+  color: #585858;
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  border-radius: 2px;
+  cursor: pointer;
+
 `;
 
 export const Select = ({ name, dataSource, onChange }) => (
-  <div>
+  <SelectItemContainer>
     <Title>
       {name}
     </Title>
@@ -33,5 +48,5 @@ export const Select = ({ name, dataSource, onChange }) => (
         );
       })}
     </StyledSelect>
-  </div>
+  </SelectItemContainer>
 );
