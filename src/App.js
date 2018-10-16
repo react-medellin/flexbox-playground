@@ -19,6 +19,8 @@ class App extends Component {
       alignItems: 'center',
       alignContent: 'flex-start',
       flexWrap: 'wrap',
+      width: 120,
+      height: 120,
       numberBoxes: 10
     }
   };
@@ -36,7 +38,11 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <FlexOptions onChange={this.onChange} />
+        <FlexOptions
+          onChange={this.onChange}
+          width={this.state.width}
+          height={this.state.height}
+        />
         <FlexBox {...this.state} />
       </Container>
     );
