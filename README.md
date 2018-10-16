@@ -14,6 +14,7 @@ There are three options for installing Yarn on Windows, you can fine <a href="ht
 On Debian or Ubuntu Linux, you can install Yarn via our Debian package repository. You will first need to configure the repository
 
 `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+<br/>
 `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
 
 Then you can simply:
