@@ -2,6 +2,25 @@
 # Flexbox playground 
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
+
+# Hot to install yarn
+
+## Install yarn on Windows
+
+There are three options for installing Yarn on Windows, you can fine 
+
+[herehttps://yarnpkg.com/lang/en/docs/install/#windows-stable]
+
+
+## Install yarn on Mac with Homebrew
+
+You can install Yarn through the Homebrew package manager. This will also install Node.js if it is not already installed.
+
+```
+brew install yarn
+```
+
+
 # How to run the app - Available Scripts
 In the project directory, you can run:
 
