@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 
-# Hot to install yarn
+# How to install yarn
 
 ## Install yarn on Windows
 
