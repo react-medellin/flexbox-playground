@@ -90,17 +90,10 @@
       ]
     },
     {
-<<<<<<< HEAD
-      "login": "gajamo",
-      "name": "gajamo",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/3331072?v=4",
-      "profile": "https://github.com/gajamo",
-=======
       "login": "jsnavarroc",
       "name": "jsnavarroc",
       "avatar_url": "https://avatars2.githubusercontent.com/u/28201235?v=4",
       "profile": "https://github.com/jsnavarroc",
->>>>>>> cf5a84fb8a9836adcdbd3f23086201421f451fb2
       "contributions": [
         "doc"
       ]
