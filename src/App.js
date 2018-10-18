@@ -23,7 +23,7 @@ class App extends Component {
       height: 120,
       numberBoxes: 10
     }
-  };
+  }
 
   onChange = (e) => {
     const target = e.target;
