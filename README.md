@@ -7,7 +7,7 @@
 
 ## Install yarn on Windows
 
-There are three options for installing Yarn on Windows, you can fine <a href="https://yarnpkg.com/lang/en/docs/install/#windows-stable" target="_blank">here</a> 
+There are three options for installing Yarn on Windows, you can find <a href="https://yarnpkg.com/lang/en/docs/install/#windows-stable" target="_blank">here</a> 
 
 ## Install yarn on Debian / Ubuntu
 
