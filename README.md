@@ -30,6 +30,11 @@ You can install Yarn through the Homebrew package manager. This will also instal
 brew install yarn
 ```
 
+## Test that Yarn is installed by running:
+
+```
+yarn --version
+```
 
 # How to run the app - Available Scripts
 
