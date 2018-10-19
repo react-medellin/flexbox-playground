@@ -32,6 +32,13 @@ brew install yarn
 
 
 # How to run the app - Available Scripts
+
+Install all the dependencies listed within package.json in the local node_modules folder.
+
+```
+yarn install
+```
+
 In the project directory, you can run:
 
 ```
