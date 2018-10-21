@@ -1,6 +1,12 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
-import { flexDirectionOptions, justifyContentOptions, alignItemsOptions, alignContentOptions, flexWrapOptions } from './options'
+import {
+  flexDirectionOptions,
+  justifyContentOptions,alignItemsOptions,
+  alignContentOptions,
+  flexWrapOptions
+} from './options';
 import { Select } from './Select';
 import { Input } from './Input';
 import { Title } from './Title';
@@ -58,3 +64,10 @@ export const FlexOptions = ({
     />
   </Container>
 );
+
+
+FlexOptions.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired
+}
