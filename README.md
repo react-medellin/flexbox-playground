@@ -4,6 +4,10 @@
 
 # How to run the app - Available Scripts
 
+# Requirements
+
+You'll need to have installed `yarn@1.10.1` or greater.
+
 In the project directory, you can run:
 
 ```
