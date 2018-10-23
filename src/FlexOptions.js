@@ -8,65 +8,92 @@ import {
   flexWrapOptions
 } from './options';
 import { Select } from './Select';
-import { Input } from './Input';
-import { Title } from './Title';
-import { BoxInputs } from './BoxInputs';
+import { ControllInput } from './ControllInput';
 
-const Container = styled.div`
-  width: 300px;
-  height: 100vh;
-  padding: 10px;
-  border: 2px solid #333;
+const ControllsContainer = styled.div`
+  min-width: 300px;
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 2px;
   box-sizing: border-box;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+`;
+
+const ControllsSection = styled.div`
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 30px;
+`;
+
+const Headline = styled.div`
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 15px;
 `;
 
 export const FlexOptions = ({
+  numberBoxes,
   onChange,
   width,
   height
 }) => (
-  <Container>
-    <Title>display: flex</Title>
-    <Select
-      name="flexDirection"
-      onChange={onChange}
-      dataSource={flexDirectionOptions}
-    />
-    <Select
-      name="justifyContent"
-      onChange={onChange}
-      dataSource={justifyContentOptions}
-    />
-    <Select
-      name="alignItems"
-      onChange={onChange}
-      dataSource={alignItemsOptions}
-    />
-    <Select
-      name="alignContent"
-      onChange={onChange}
-      dataSource={alignContentOptions}
-    />
-    <Select
-      name="flexWrap"
-      onChange={onChange}
-      dataSource={flexWrapOptions}
-    />
-    <BoxInputs
-      name="Boxes' Width and Height"
-      onChange={onChange}
-      width={width}
-      height={height}
-    />
-    <Input
-      name="numberBoxes"
-      onChange={onChange}
-    />
-  </Container>
+  <ControllsContainer>
+    <ControllsSection>
+      <Headline><strong>Flexbox</strong> Playground</Headline>
+      <Select
+        name="flexDirection"
+        onChange={onChange}
+        dataSource={flexDirectionOptions}
+      />
+      <Select
+        name="justifyContent"
+        onChange={onChange}
+        dataSource={justifyContentOptions}
+      />
+      <Select
+        name="alignItems"
+        onChange={onChange}
+        dataSource={alignItemsOptions}
+      />
+      <Select
+        name="alignContent"
+        onChange={onChange}
+        dataSource={alignContentOptions}
+      />
+      <Select
+        name="flexWrap"
+        onChange={onChange}
+        dataSource={flexWrapOptions}
+      />
+    </ControllsSection>
+    <ControllsSection>
+      <ControllInput
+        title="Boxes' width (px)"
+        name="width"
+        onChange={onChange}
+        value={width}
+      />
+      <ControllInput
+        title="Boxes' height (px)"
+        name="height"
+        onChange={onChange}
+        value={height}
+      />
+      <ControllInput
+        title="Number of boxes"
+        name="numberBoxes"
+        onChange={onChange}
+        value={numberBoxes}
+      />
+    </ControllsSection>
+  </ControllsContainer>
 );
 
 
 FlexOptions.propTypes = {
+  numberBoxes: PropTypes.number.isRequired,
   onChange: PropTypes.func.isRequired,
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired
