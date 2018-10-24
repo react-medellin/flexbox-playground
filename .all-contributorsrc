@@ -1,0 +1,102 @@
+{
+  "projectName": "flexbox-playground",
+  "projectOwner": "react-medellin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "angelitaooo",
+      "name": "Angela Ordoñez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18565471?v=4",
+      "profile": "http://angelitaooo.github.io",
+      "contributions": [
+        "doc",
+        "tool"
+      ]
+    },
+    {
+      "login": "danielcb29",
+      "name": "Daniel Correa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8260962?v=4",
+      "profile": "https://danielcb29.github.io/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shmesa22",
+      "name": "Simon Hoyos",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23706543?v=4",
+      "profile": "https://www.linkedin.com/in/simonhoyos/",
+      "contributions": [
+        "question",
+        "code",
+        "eventOrganizing",
+        "review",
+        "tutorial"
+      ]
+    },
+    {
+      "login": "robinHurtado",
+      "name": "Robin Hurtado Abadia",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19338528?v=4",
+      "profile": "http://robinhurtado.surge.sh",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "camigomez35",
+      "name": "Maria Camila Gomez Restrepo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16061815?v=4",
+      "profile": "http://www.camigomez.me/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "williamegomez",
+      "name": "William Gómez Ortega",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33497419?v=4",
+      "profile": "http://www.williamgomez.me",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "kritokrator",
+      "name": "kritokrator",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3844042?v=4",
+      "profile": "https://github.com/kritokrator",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "josemariogutierrez",
+      "name": "Jose Mario Gutierrez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27037672?v=4",
+      "profile": "https://github.com/josemariogutierrez",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "jsnavarroc",
+      "name": "jsnavarroc",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28201235?v=4",
+      "profile": "https://github.com/jsnavarroc",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
