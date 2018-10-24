@@ -6,7 +6,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
+    "react-scripts": "2.0.3",
     "styled-components": "^3.1.6"
   },
   "scripts": {
@@ -19,6 +19,12 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
     "babel-preset-stage-1": "^6.24.1",
