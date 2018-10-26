@@ -97,6 +97,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "slacle",
+      "name": "Sebastian Lacle",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10146319?v=4",
+      "profile": "http://slacle.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ]
 }
