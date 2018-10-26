@@ -1,4 +1,5 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
 import { Title } from './Title';
 
@@ -26,3 +27,8 @@ export const Input = ({ name, onChange }) => (
     />
   </div>
 );
+
+Input.propTypes = {
+  name: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired
+}

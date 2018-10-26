@@ -14,8 +14,8 @@ const Container = styled.div`
 `;
 
 const displayBoxes = ({ numberBoxes, width, height }) =>
-    Array.from({ length: numberBoxes }, (_, i) =>
-               <Box primary={i % 2 === 0} width={width} height={height} key={i}/>);
+  Array.from({ length: numberBoxes }, (_, i) =>
+    <Box primary={i % 2 === 0} width={width} height={height} key={i}/>);
 
 export const FlexBox = (props) => (
   <Container {...props}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import styled from 'styled-components';
 import { Title } from './Title';
 
@@ -35,3 +36,9 @@ export const Select = ({ name, dataSource, onChange }) => (
     </StyledSelect>
   </div>
 );
+
+Select.propTypes = {
+  dataSource: PropTypes.array.isRequired,
+  name: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired
+}
