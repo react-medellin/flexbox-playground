@@ -1,59 +1,19 @@
-# Flexbox playground
 
-<<<<<<< HEAD
 # Flexbox playground 
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 
 # How to install yarn
 
-## Install yarn on Windows
 
-There are three options for installing Yarn on Windows, you can find <a href="https://yarnpkg.com/lang/en/docs/install/#windows-stable" target="_blank">here</a> 
+you can find <a href="https://yarnpkg.com/lang/en/docs/install/#windows-stable" target="_blank">here</a> how to install yarn 
 
-## Install yarn on Debian / Ubuntu
-
-On Debian or Ubuntu Linux, you can install Yarn via our Debian package repository. You will first need to configure the repository
-
-`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
-<br/>
-`echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
-
-Then you can simply:
-
-`sudo apt-get update && sudo apt-get install yarn`
-
-
-## Install yarn on Mac with Homebrew
-
-You can install Yarn through the Homebrew package manager. This will also install Node.js if it is not already installed.
-
-```
-brew install yarn
-```
-
-## Test that Yarn is installed by running:
-
-```
-yarn --version
-```
-
-# How to run the app - Available Scripts
-
-Install all the dependencies listed within package.json in the local node_modules folder.
-
-```
-yarn install
-```
-=======
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 
 # How to run the app - Available Scripts
 
 # Requirements
 
-You'll need to have installed `yarn@1.10.1` or greater.
->>>>>>> 049822a70432b1b50d7ed4c576f640004c5c9bad
+You'll need to have installed yarn@1.10.1 or greater.
 
 In the project directory, you can run:
 
