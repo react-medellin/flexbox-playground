@@ -50,7 +50,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 The following command opens the cypress console from which you can run the tests.
 
 ```
-npx cypress open
+yarn test:e2e
 ```
 
 <center><img src="https://docs.cypress.io/img/guides/testing-your-app-home-page-spec.049e17f2.png"/></center>

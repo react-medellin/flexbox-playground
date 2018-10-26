@@ -18,6 +18,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
+    "test:e2e": "npx cypress open",
     "eject": "react-scripts eject",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
