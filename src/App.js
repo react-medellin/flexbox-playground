@@ -5,8 +5,9 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
+  padding: 20px;
 `;
 
 class App extends Component {
@@ -42,6 +43,7 @@ class App extends Component {
           onChange={this.onChange}
           width={this.state.width}
           height={this.state.height}
+          numberBoxes={this.state.numberBoxes}
         />
         <FlexBox {...this.state} />
       </Container>
