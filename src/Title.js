@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.p`
-  color: '#333';
-  font-weight: 600;
-  margin-bottom: 10;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 5px;
 `;
