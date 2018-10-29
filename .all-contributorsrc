@@ -99,20 +99,12 @@
       ]
     },
     {
-<<<<<<< HEAD
-      "login": "gajamo",
-      "name": "gajamo",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/3331072?v=4",
-      "profile": "https://github.com/gajamo",
-      "contributions": [
-=======
       "login": "slacle",
       "name": "Sebastian Lacle",
       "avatar_url": "https://avatars3.githubusercontent.com/u/10146319?v=4",
       "profile": "http://slacle.com/",
       "contributions": [
         "code",
->>>>>>> 9479d8d349e5ef36a02d4b1afa7b52da0326c06b
         "doc"
       ]
     }
