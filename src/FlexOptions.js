@@ -1,14 +1,15 @@
-import React from 'react';
-import { PropTypes } from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import { PropTypes } from "prop-types";
+import styled from "styled-components";
 import {
   flexDirectionOptions,
-  justifyContentOptions,alignItemsOptions,
-  alignContentOptions,
-  flexWrapOptions
-} from './options';
-import { Select } from './Select';
-import { ControllInput } from './ControllInput';
+  flexWrapOptions,
+  justifyContentOptions,
+  alignItemsOptions,
+  alignContentOptions
+} from "./options";
+import { Select } from "./Select";
+import { ControllInput } from "./ControllInput";
 
 const ControllsContainer = styled.div`
   min-width: 300px;
@@ -17,7 +18,7 @@ const ControllsContainer = styled.div`
   background-color: #fff;
   border-radius: 2px;
   box-sizing: border-box;
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
 `;
 
 const ControllsSection = styled.div`
@@ -33,19 +34,21 @@ const Headline = styled.div`
   padding-bottom: 15px;
 `;
 
-export const FlexOptions = ({
-  numberBoxes,
-  onChange,
-  width,
-  height
-}) => (
+export const FlexOptions = ({ numberBoxes, onChange, width, height }) => (
   <ControllsContainer>
     <ControllsSection>
-      <Headline><strong>Flexbox</strong> Playground</Headline>
+      <Headline>
+        <strong>Flexbox</strong> Playground
+      </Headline>
       <Select
         name="flexDirection"
         onChange={onChange}
         dataSource={flexDirectionOptions}
+      />
+      <Select
+        name="flexWrap"
+        onChange={onChange}
+        dataSource={flexWrapOptions}
       />
       <Select
         name="justifyContent"
@@ -61,11 +64,6 @@ export const FlexOptions = ({
         name="alignContent"
         onChange={onChange}
         dataSource={alignContentOptions}
-      />
-      <Select
-        name="flexWrap"
-        onChange={onChange}
-        dataSource={flexWrapOptions}
       />
     </ControllsSection>
     <ControllsSection>
@@ -91,10 +89,9 @@ export const FlexOptions = ({
   </ControllsContainer>
 );
 
-
 FlexOptions.propTypes = {
   numberBoxes: PropTypes.number.isRequired,
   onChange: PropTypes.func.isRequired,
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired
-}
+};
