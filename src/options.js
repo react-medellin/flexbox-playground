@@ -1,38 +1,34 @@
 export const flexDirectionOptions = [
-  'row',
-  'row-reverse',
-  'column',
-  'column-reverse'
+  "row",
+  "row-reverse",
+  "column",
+  "column-reverse"
 ];
 
+export const flexWrapOptions = ["nowrap", "wrap", "wrap-reverse"];
+
 export const justifyContentOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
-  'left',
-  'right',
-  'space-between',
-  'space-around',
-  'space-evenly'
+  "flex-start",
+  "flex-end",
+  "center",
+  "space-between",
+  "space-around",
+  "space-evenly"
 ];
 
 export const alignItemsOptions = [
-  'center',
-  'flex-start',
-  'flex-end',
+  "stretch",
+  "flex-start",
+  "flex-end",
+  "center",
+  "baseline"
 ];
 
 export const alignContentOptions = [
-  'center',
-  'flex-end',
-  'flex-start',
-  'space-between',
-  'space-around',
-  'space-evenly'
-];
-
-export const flexWrapOptions = [
-  'wrap',
-  'nowrap',
-  'wrap-reverse'
+  "stretch",
+  "flex-start",
+  "flex-end",
+  "center",
+  "space-between",
+  "space-around"
 ];

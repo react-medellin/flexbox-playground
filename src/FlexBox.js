@@ -1,6 +1,6 @@
-import React from 'react';
-import { Box } from './Box';
-import styled from 'styled-components';
+import React from "react";
+import { Box } from "./Box";
+import styled from "styled-components";
 
 const FlexAreaWrapper = styled.div`
   width: calc(100% - 300px);
