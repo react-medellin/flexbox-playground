@@ -23,15 +23,14 @@ const ControllsContainer = styled.div`
 
 const ControllsSection = styled.div`
   border-bottom: 1px solid #ededed;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 `;
 
 const Headline = styled.div`
   font-size: 20px;
   text-align: center;
-  margin-bottom: 30px;
   border-bottom: 1px solid #ededed;
-  padding-bottom: 15px;
+  padding-bottom: 8px;
 `;
 
 export const FlexOptions = ({ numberBoxes, onChange, width, height }) => (
